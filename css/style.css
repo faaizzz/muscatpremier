@@ -358,6 +358,11 @@ ul {
   list-style: none;
 }
 
+ul.para {
+  padding-left: 20px;
+  list-style: disc;
+}
+
 /*------------------------------------------*/
 /*   CONTENT LIST
 /*------------------------------------------*/
