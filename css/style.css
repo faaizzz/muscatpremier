@@ -1062,6 +1062,11 @@ span.id-color {
   color: #fff;
 }
 
+.headertopright a.instaicon:hover {
+  background-color: #e95950;
+  color: #fff;
+}
+
 .address a {
   color: #fff;
   font-size: 13px;
