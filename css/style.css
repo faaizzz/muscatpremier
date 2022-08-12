@@ -847,45 +847,45 @@ span.id-color {
 .white-color .lightgrey-color,
 .lightgrey-color span { color: #ccc; }
 
-.blue-color,
-.blue-color h2, 
-.blue-color h3, 
-.blue-color h4, 
-.blue-color h5, 
-.blue-color h6, 
-.blue-color p, 
-.blue-color a, 
-.blue-color li,
-.blue-color i, 
-.white-color .blue-color,
-.steelblue-color .blue-color,
-.blue-color span { color: #42BDA7; }
+.secondary-color,
+.secondary-color h2, 
+.secondary-color h3, 
+.secondary-color h4, 
+.secondary-color h5, 
+.secondary-color h6, 
+.secondary-color p, 
+.secondary-color a, 
+.secondary-color li,
+.secondary-color i, 
+.white-color .secondary-color,
+.primary-color .secondary-color,
+.secondary-color span { color: #42BDA7; }
 
-.darkblue-color,
-.darkblue-color h2, 
-.darkblue-color h3, 
-.darkblue-color h4, 
-.darkblue-color h5, 
-.darkblue-color h6, 
-.darkblue-color p, 
-.darkblue-color a, 
-.darkblue-color li,
-.darkblue-color i, 
-.white-color .darkblue-color,
-.darkblue-color span { color: #1d437b; }
+.darksecondary-color,
+.darksecondary-color h2, 
+.darksecondary-color h3, 
+.darksecondary-color h4, 
+.darksecondary-color h5, 
+.darksecondary-color h6, 
+.darksecondary-color p, 
+.darksecondary-color a, 
+.darksecondary-color li,
+.darksecondary-color i, 
+.white-color .darksecondary-color,
+.darksecondary-color span { color: #1d437b; }
 
-.steelblue-color,
-.steelblue-color h2, 
-.steelblue-color h3, 
-.steelblue-color h4, 
-.steelblue-color h5, 
-.steelblue-color h6, 
-.steelblue-color p, 
-.steelblue-color a, 
-.steelblue-color li,
-.steelblue-color i, 
-.white-color .steelblue-color,
-.steelblue-color span { color: #004861; }
+.primary-color,
+.primary-color h2, 
+.primary-color h3, 
+.primary-color h4, 
+.primary-color h5, 
+.primary-color h6, 
+.primary-color p, 
+.primary-color a, 
+.primary-color li,
+.primary-color i, 
+.white-color .primary-color,
+.primary-color span { color: #004861; }
 
 .lime-color,
 .lime-color h2, 
@@ -2002,7 +2002,7 @@ p.header-widget-phone {
   margin-bottom: 0;
 }
 
-.abox-3 p.blue-color {
+.abox-3 p.secondary-color {
   font-size: 0.975rem;
   font-weight: 400;
   margin-bottom: 15px;

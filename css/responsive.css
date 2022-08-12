@@ -240,7 +240,7 @@
   .abox-1 h5, .abox-2 h5 { margin-bottom: 20px; }
   .abox-1 h5.h5-lg.emergency-call { font-size: 1.3rem; margin-top: 30px; }
   .abox-3 h5, .abox-4 h5 { font-size: 1rem; margin-bottom: 15px;}
-  .abox-3 p.blue-color { font-size: 0.95rem; margin-bottom: 15px; }
+  .abox-3 p.secondary-color { font-size: 0.95rem; margin-bottom: 15px; }
   .abox-2 .btn.mt-25 { margin-top: 20px; }
 
   .abox-1 i { font-size: 1rem; }
@@ -691,7 +691,7 @@
   .abox-1 h5.h5-lg.emergency-call, .abox-2 h4.h4-sm.emergency-call { font-size: 1.7rem; margin-top: 30px; }
   .abox-3 h5, .abox-4 h5 { font-size: 1.3rem; margin-bottom: 15px; }
   .abox-1 p, .abox-2 p, .abox-3 p,.abox-4 p { font-size: 1rem; }
-  .abox-3 p.blue-color { font-size: 1rem; margin-bottom: 15px; }
+  .abox-3 p.secondary-color { font-size: 1rem; margin-bottom: 15px; }
 
   .abox-1 .table td, .abox-1 .table th,
   .abox-2 .table td, .abox-2 .table th, .abox-4-table .table td, .abox-4 .table th { font-size: 17px; padding: 16px 0; }
@@ -1176,7 +1176,7 @@
   .abox-1 h5.h5-lg.emergency-call, .abox-2 h4.h4-sm.emergency-call { font-size: 2rem; margin-top: 30px; }
   .abox-3 h5, .abox-4 h5 { font-size: 1.35rem; margin-bottom: 20px; }
   .abox-1 p, .abox-2 p, .abox-3 p,.abox-4 p { font-size: 1rem; }
-  .abox-3 p.blue-color { font-size: 1.075rem; margin-bottom: 15px; }
+  .abox-3 p.secondary-color { font-size: 1.075rem; margin-bottom: 15px; }
 
   .abox-1 .table td, .abox-1 .table th, 
   .abox-2 .table td, .abox-2 .table th, .abox-4-table .table td, .abox-4 .table th { font-size: 17px; padding: 17px 0; }
@@ -1657,7 +1657,7 @@
   .abox-1 h5.h5-lg.emergency-call, .abox-2 h4.h4-sm.emergency-call { font-size: 2rem; margin-top: 30px; }
   .abox-3 h5, .abox-4 h5 { font-size: 1.35rem; margin-bottom: 20px; }
   .abox-1 p, .abox-2 p, .abox-3 p,.abox-4 p { font-size: 1.1rem; }
-  .abox-3 p.blue-color { font-size: 1.075rem; margin-bottom: 15px; }
+  .abox-3 p.secondary-color { font-size: 1.075rem; margin-bottom: 15px; }
 
   .abox-4-table { padding: 50px 20px 25px; }
   .abox-1 .table td, .abox-1 .table th, 
