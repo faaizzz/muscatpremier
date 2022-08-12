@@ -253,7 +253,7 @@
 .cd-schedule .single-event[data-event="event-1"],
 .cd-schedule [data-event="event-1"] .header-bg {
   /* this is used to set a background color for the event and the modal window */
-  background: #00a3c8;
+  background: #42BDA7;
 }
 
 .cd-schedule .single-event[data-event="event-1"]:hover {
