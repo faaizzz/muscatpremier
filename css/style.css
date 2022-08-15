@@ -3105,9 +3105,11 @@ td.text-right {
   =========================================================================== */
 
 #statistic-1 {
-  background-image: url(../images/statistic.jpg);
+  background-image: url(../images/banner.png);
   padding-top: 80px;
   padding-bottom: 40px;
+  background-color: #42BDA7; /* Tint color */
+  background-blend-mode: multiply;
 }
 
 #statistic-2 {
@@ -5740,4 +5742,14 @@ nav a#pull {
   opacity: 0.8;
 }
 
+.ws-30{
+  word-spacing: 30px;
+}
 
+.ws-30{
+  word-spacing: 30px;
+}
+
+.ws-d{
+  word-spacing: 2px;
+}
