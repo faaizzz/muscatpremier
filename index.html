@@ -138,7 +138,7 @@
 							    <li class="nl-simple" aria-haspopup="true"><a href="#">Contact us</a></li>
 							    
 							    <!-- NAVIGATION MENU BUTTON -->
-							    <li class="nl-simple header-btn" aria-haspopup="true"><a href="appointment.html">Make an Appointment</a></li>
+							    <li class="nl-simple header-btn" aria-haspopup="true"><a href="appointment.html" data-toggle="modal" data-target="#AppointmentModal">Make an Appointment</a></li>
 
 
         					</ul>
@@ -1289,6 +1289,67 @@
 
 
 		</div>	<!-- END PAGE CONTENT -->
+
+
+		<!-- Modal -->
+
+<!-- Modal -->
+<div class="modal fade" id="AppointmentModal" tabindex="-1" role="dialog" aria-labelledby="AppointmentModalLabel" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+	  <div class="modal-content pl-40 pr-40 pt-40">
+		<h5 class="h5-md model-header">Get an Appointment</h5>
+								<!-- APPOINTMENT FORM -->
+								<div id="appointment-form-holder" class="text-center">
+									<form name="appointmentform" class="row appointment-form">
+				                                            
+						                <!-- Contact Form Input -->
+						                <div id="input-name" class="col-lg-12">
+						                	<input type="text" name="name" class="form-control name" placeholder="Enter Your Name*" required> 
+						                </div>
+						                        
+						                <div id="input-email" class="col-lg-12">
+						                	<input type="text" name="email" class="form-control email" placeholder="Enter Your Email*" required> 
+						                </div>
+
+						                <div id="input-phone" class="col-lg-12">
+						                	<input type="tel" name="phone" class="form-control phone" placeholder="Enter Your Phone Number*" required> 
+						                </div>	
+										
+						                <!-- Contact Form Input -->
+						                <div id="input-date" class="col-lg-12">
+						                	<input id="datetimepicker" type="text" name="date" class="form-control date" placeholder="Appointment Date" required> 
+						                </div>
+
+										<!-- Form Select -->
+						                <div id="input-doctor" class="col-md-12 input-doctor">
+						                    <select id="inlineFormCustomSelect2" name="doctor" class="custom-select doctor" required>
+						                        <option value="">Select Doctor</option>  
+						                      	<option>Jonathan Barnes D.M.</option>
+						                      	<option>Hannah Harper D.M.</option>
+						                      	<option>Matthew Anderson D.M.</option>
+						                      	<option>Megan Coleman D.M.</option>
+						                      	<option>Joshua Elledge D.M.</option>
+						                      	<option>Other</option>
+						                    </select>
+						                </div>
+						                                            
+						                <!-- Contact Form Button -->
+						                <div class="col-lg-12 form-btn">  
+						                	<button type="submit" class="btn blue-hover submit send-messgae">Send Your Message</button> 
+						                </div>
+						                                                              
+						                <!-- Contact Form Message -->
+						                <div class="col-lg-12 appointment-form-msg text-center">
+						                	<div class="sending-msg"><span class="loading"></span></div>
+						                </div>  
+					                                              
+					                </form> 
+
+								</div>	<!-- END APPOINTMENT FORM -->			
+			
+	  </div>
+	</div>
+  </div>
 		
 
 

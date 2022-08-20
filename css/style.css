@@ -5297,7 +5297,7 @@ ul.blog-category-list li:hover {
   =========================================================================== */
 
 #appointment-form-holder { 
-  margin: 40px 0 25px;
+  margin: 20px 0 25px;
 }
 
 /*------------------------------------------*/
@@ -5312,7 +5312,7 @@ ul.blog-category-list li:hover {
   height: 54px;
   font-size: 16px;
   line-height: 1;
-  font-weight: 400;
+  font-weight: 200;
   padding: 4px 15px;
   margin-bottom: 20px;
   -webkit-border-radius: 4px;
@@ -5764,4 +5764,19 @@ nav a#pull {
 
 .mh-225{
   min-height: 225px;
+}
+
+.modal-content{
+  background-color: #42BDA7;
+   border-radius: 6px;
+   border: 0px;
+}
+
+.model-header{
+  color: white;
+  padding-top: 20px 20px;
+}
+
+button.send-messgae{
+  background-color: #373737;
 }
