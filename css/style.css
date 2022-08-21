@@ -5780,3 +5780,28 @@ nav a#pull {
 button.send-messgae{
   background-color: #373737;
 }
+
+#our-doctor-banner-1 {
+  background-image: url(../images/banner/banner-1.png);
+  background-position: right;
+  background-size: auto;
+  background-color: #42BDA7;
+  color: white;
+  min-height: 530px;
+}
+
+.white-color{
+  color: white;
+}
+
+.pt-15p{
+  padding-top: 15%;
+}
+
+.ts-1{
+  text-shadow: 0px 3px 5px grey;
+}
+
+.fw-800{
+  font-weight: 800px;
+}
