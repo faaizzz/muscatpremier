@@ -5805,3 +5805,12 @@ button.send-messgae{
 .fw-800{
   font-weight: 800px;
 }
+
+#about-us-banner {
+  background-image: url(../images/banner/banner-2.png);
+  background-position: right;
+  background-size: auto;
+  background-color: #42BDA7;
+  color: white;
+  min-height: 530px;
+}
