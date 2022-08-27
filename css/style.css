@@ -5826,3 +5826,13 @@ button.send-messgae{
   min-height: 200px;
   padding: 55px 0px;
 }
+
+#career-banner {
+  background-image: url(../images/banner/banner-4.png);
+  background-position: right;
+  background-size: auto;
+  background-color: #42BDA7;
+  color: white;
+  min-height: 200px;
+  padding: 55px 0px;
+}
