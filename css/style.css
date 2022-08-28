@@ -5864,3 +5864,15 @@ button.send-messgae{
   font-family: 'Lato', sans-serif;
     font-weight: 700;
 }
+
+.circle-image {
+  /* background: url(../images/icons/gynac.png) no-repeat center center; */
+  height: 30px;
+  width: 30px;
+  margin: 30px 27px;
+}
+
+.owl-carousel .owl-item .circle-image {
+  width: 57px;
+  height: 51px;
+}
