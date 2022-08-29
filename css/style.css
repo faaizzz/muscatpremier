@@ -5876,3 +5876,10 @@ button.send-messgae{
   width: 57px;
   height: 51px;
 }
+
+.img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:80%;
+}
