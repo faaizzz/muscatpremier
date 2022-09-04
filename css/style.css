@@ -937,7 +937,7 @@ span.id-color {
   height: 38px;
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 40%;
   margin-left: -128px;
   margin-top: -19px;
 }
@@ -948,7 +948,27 @@ span.id-color {
   background: url(../images/loader.gif) center center no-repeat;  
 }
 
+@media only screen and (min-width: 600px) {
+#loading-desktop-logo{
+  position: absolute;
+  left: 40%;
+  top: 40%;
+  /* margin-left: -128px;
+  margin-top: -19px; */
+}
 
+}
+
+@media only screen and (max-width: 600px) {
+  #loading-desktop-logo{
+    position: absolute;
+    left: 20%;
+    top: 40%;
+    /* margin-left: -128px;
+    margin-top: -19px; */
+  }
+  
+  }
 
 
 /* ==========================================================================
