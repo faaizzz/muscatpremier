@@ -14,6 +14,10 @@ jQuery(function () {
       jQuery('body').toggleClass('wsactive');
     });
 
+    jQuery('#make-appointment').click(function () {
+      jQuery('body').toggleClass('wsactive');
+    });
+
     jQuery('.overlapblackbg').click(function () {
       jQuery("body").removeClass('wsactive');
     });
