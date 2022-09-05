@@ -970,6 +970,18 @@ span.id-color {
   
   }
 
+  @media only screen and (min-width: 600px) {
+    .hidden-desktop {
+      display: none!important;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .hidden-mobile {
+      display: none!important;
+    }
+  }
+
 
 /* ==========================================================================
   04. HEADER & NAVIGATION
