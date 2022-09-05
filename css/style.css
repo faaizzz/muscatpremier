@@ -1399,6 +1399,10 @@ p.header-widget-phone {
   text-align: center;
 }
 
+.left-align {
+  text-align: left;
+}
+
 /*------------------------------------------*/
 /*  Slider Indicators
 /*------------------------------------------*/
