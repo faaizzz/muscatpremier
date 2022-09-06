@@ -3144,6 +3144,7 @@ td.text-right {
 
 #statistic-1 {
   background-image: url(../images/banner.png);
+  background-size: cover;
   padding-top: 80px;
   padding-bottom: 40px;
   background-color: #42BDA7; /* Tint color */
@@ -5918,4 +5919,8 @@ button.send-messgae{
   margin-left: auto;
   margin-right: auto;
   width:80%;
+}
+
+.mw-250{
+  max-width: 250px;
 }
