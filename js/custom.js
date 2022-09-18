@@ -264,7 +264,7 @@
 	
 		var owl = $('.reviews-holder');
 			owl.owlCarousel({
-				items: 3,
+				items: 6,
 				loop:true,
 				autoplay:true,
 				navBy: 1,
@@ -279,13 +279,13 @@
 						items:1
 					},
 					768:{
-						items:2
+						items:3
 					},
 					991:{
-						items:3
+						items:5
 					},
 					1000:{
-						items:3
+						items:5
 					}
 				}
 		});

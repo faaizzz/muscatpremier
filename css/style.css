@@ -5934,3 +5934,7 @@ button.send-messgae{
 .mw-250{
   max-width: 250px;
 }
+
+.owl-carousel .owl-item img.wd-auto{
+  width: auto;
+}
