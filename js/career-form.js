@@ -33,13 +33,6 @@ $(document).ready(function() {
             return false;
         } else {
             phone.closest(".form-control").removeClass("error").addClass("success");
-        } if (patient.val() == "") {
-            patient.closest(".form-control").addClass("error");
-            patient.focus();
-            flag = false;
-            return false;
-        } else {
-            patient.closest(".form-control").removeClass("error").addClass("success");
         } if (jobtitle.val() == "") {
             jobtitle.closest(".form-control").addClass("error");
             jobtitle.focus();
