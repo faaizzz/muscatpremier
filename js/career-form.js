@@ -57,7 +57,7 @@ $(document).ready(function() {
             lastname.closest(".form-control").removeClass("error").addClass("success");
             flag = true;
         }
-        var dataString = "name=" + name.val() + "&email=" + email.val() + "&phone=" + phone.val() + "&lastname=" + lastname.val() + "&subject=" + subject.val() + "&msg=" + msg.val();
+        var dataString = "name=" + name.val() + "&email=" + email.val() + "&phone=" + phone.val() + "&lastname=" + lastname.val() + "&jobtitle=" + jobtitle.val() + "&msg=" + msg.val();
         $(".loading").fadeIn("slow").html("Loading...");
         $.ajax({
             type: "POST",
