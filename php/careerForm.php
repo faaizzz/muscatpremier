@@ -4,7 +4,7 @@ $lastname  = $_REQUEST["lastname"];
 $email = $_REQUEST["email"];
 $phone   = $_REQUEST["phone"];
 $jobtitle  = $_REQUEST["jobtitle"];
-$msg   = $_REQUEST["message"];
+$msg   = $_REQUEST["msg"];
 $to    = "info@izmasoft.com"; // ENTER YOUR EMAIL ADDRESS
 if (isset($email) && isset($name) && isset($lastname)  && isset($msg)) {
     $email_subject = "$name Applied for a Job"; // ENTER YOUR EMAIL SUBJECT
