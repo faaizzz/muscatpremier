@@ -408,7 +408,7 @@
   #gmap {height: 400px;}
 
   /* Contacts */
-  #contacts-1 .contact-form { margin-left: 0; margin-right: 0; }
+  #contacts-1 .form { margin-left: 0; margin-right: 0; }
   #contacts-2 h4.h4-md { padding-right: 0; margin-top: 0; margin-bottom: 20px;}
 
   /* Footer */
@@ -848,13 +848,13 @@
   #gmap {height: 350px;}
 
   /* Contacts */
-  #contacts-1 .contact-form { margin-left: 0; margin-right: 0; }
+  #contacts-1 .form { margin-left: 0; margin-right: 0; }
   #contacts-1 .col-md-12 { padding: 0; }
   #contacts-2 h4.h4-md { padding-right: 0; margin-top: 0; margin-bottom: 20px;}
   .contact-box p { font-size: 1.05rem; }
 
-  #contacts-2 .contact-form { margin-top: 30px; padding: 40px 20px 35px; }
-  #contacts-2 .contact-form .col-md-6, #contacts-2 .contact-form .col-md-12 { padding: 0 10px; }
+  #contacts-2 .form { margin-top: 30px; padding: 40px 20px 35px; }
+  #contacts-2 .form .col-md-6, #contacts-2 .form .col-md-12 { padding: 0 10px; }
 
   /* Footer */
   #footer-1 .footer-box { padding-left: 0; }
@@ -1380,11 +1380,11 @@
   .comment-form .form-control { font-size: 1.075rem; }
 
   /* Contacts */
-  #contacts-1 .contact-form { margin-left: 0; margin-right: 0; }
+  #contacts-1 .form { margin-left: 0; margin-right: 0; }
   .contact-box p { font-size: 1.133rem; }
 
   #contacts-1 .col-md-12 { padding: 0; }
-  .contact-form .form-control, .contact-form .custom-select { height: 54px; font-size: 1.133rem; }
+  .form .form-control, .form .custom-select { height: 54px; font-size: 1.133rem; }
 
   /* Google Map */
   #gmap { margin-top: 70px; }
@@ -1888,10 +1888,10 @@
   #contacts-2 h4.h4-md { padding-right: 0; margin-top: 0; margin-bottom: 20px;}
   .contact-box p { font-size: 1.133rem; }
 
-  #contacts-1 .contact-form { margin-left: 0; }
-  #contacts-2 .contact-form { padding: 25px 10px 25px; }
+  #contacts-1 .form { margin-left: 0; }
+  #contacts-2 .form { padding: 25px 10px 25px; }
   #contacts-1 .col-md-12 { padding: 0 15px 0 0; }
-  .contact-form .form-control, .contact-form .custom-select { height: 54px; font-size: 1.266rem; }
+  .form .form-control, .form .custom-select { height: 54px; font-size: 1.266rem; }
 
   /* Google Map */
   #gmap { margin-top: 70px; }

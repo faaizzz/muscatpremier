@@ -377,6 +377,35 @@
 			}
 		});
 
+		/*----------------------------------------------------*/
+		/*	Contact Form Validation
+		/*----------------------------------------------------*/
+		
+		$(".career-form").validate({
+			rules: {				
+				name: "required",
+				lastname: "required",
+				email: {
+					required: true,
+					email: true
+				},
+				phone:{
+					required: true,
+					digits: true,
+				},
+				jobtitle: "required",
+				message: "required",
+			},
+			messages: {
+				jobtitle: "This field is required",
+				name: "Please enter your name",
+				email: "We need your email address to contact you",
+				phone: "Please enter a valid number",
+				lastname: "Please enter your last name",
+				message: "Please enter no more than (1) characters",
+			}
+		});
+
 
 		/*----------------------------------------------------*/
 		/*	Comment Form Validation

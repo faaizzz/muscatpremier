@@ -3,13 +3,13 @@ $(document).ready(function() {
 
     "use strict";
 
-    $(".contact-form").submit(function(e) {
+    $(".career-form").submit(function(e) {
         e.preventDefault();
         var name = $(".name");
         var email = $(".email");
         var phone = $(".phone");
-        var visitedUsBefore = $(".visitedUsBefore");
-        var subject = $(".subject");
+        var lastname = $(".lastname");
+        var jobtitle = $(".jobtitle");
         var msg = $(".message");
         var flag = false;
         if (name.val() == "") {
@@ -40,13 +40,13 @@ $(document).ready(function() {
             return false;
         } else {
             patient.closest(".form-control").removeClass("error").addClass("success");
-        } if (subject.val() == "") {
-            subject.closest(".form-control").addClass("error");
-            subject.focus();
+        } if (jobtitle.val() == "") {
+            jobtitle.closest(".form-control").addClass("error");
+            jobtitle.focus();
             flag = false;
             return false;
         } else {
-            subject.closest(".form-control").removeClass("error").addClass("success");
+            jobtitle.closest(".form-control").removeClass("error").addClass("success");
         } if (msg.val() == "") {
             msg.closest(".form-control").addClass("error");
             msg.focus();
@@ -55,21 +55,21 @@ $(document).ready(function() {
         } else {
             msg.closest(".form-control").removeClass("error").addClass("success");
             flag = true;
-        } if (visitedUsBefore.val() == "") {
-            visitedUsBefore.closest(".form-control").addClass("error");
-            visitedUsBefore.focus();
+        } if (lastname.val() == "") {
+            lastname.closest(".form-control").addClass("error");
+            lastname.focus();
             flag = false;
             return false;
         } else {
-            visitedUsBefore.closest(".form-control").removeClass("error").addClass("success");
+            lastname.closest(".form-control").removeClass("error").addClass("success");
             flag = true;
         }
-        var dataString = "name=" + name.val() + "&email=" + email.val() + "&phone=" + phone.val() + "&visitedUsBefore=" + visitedUsBefore.val() + "&subject=" + subject.val() + "&msg=" + msg.val();
+        var dataString = "name=" + name.val() + "&email=" + email.val() + "&phone=" + phone.val() + "&lastname=" + lastname.val() + "&subject=" + subject.val() + "&msg=" + msg.val();
         $(".loading").fadeIn("slow").html("Loading...");
         $.ajax({
             type: "POST",
             data: dataString,
-            url: "php/contactForm.php",
+            url: "php/careerForm.php",
             cache: false,
             success: function (d) {
                 $(".form-control").removeClass("success");
