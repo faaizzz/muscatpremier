@@ -5938,3 +5938,7 @@ button.send-messgae{
 .owl-carousel .owl-item img.wd-auto{
   width: auto;
 }
+
+.footer .img-center{
+  width: 90px;
+}
